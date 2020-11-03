@@ -1,0 +1,29 @@
+package Ex;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		double principala = 4.8715;
+		double[] a=new double[] {4.8901, 4.7908, 4.1209, 4.9543, 4.2134, 4.6464};
+		int scazut=0;
+		int crescut=0;
+		
+		for(double i=0; i<a.length;i++)
+		{
+			if(a[(int) i] > principala)
+			{
+				++crescut;
+			}
+			else
+			{
+				++scazut;
+			}
+		}
+		System.out.println("In anul 2017 leul a crescut de" + crescut + "ori");
+		System.out.println("In anul 2017 leul a scazutt de" + scazut + "ori");
+		
+	}
+
+	}
+
+	}
